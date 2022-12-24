@@ -1,0 +1,7 @@
+create database perros;
+use perros;
+create table perro(nombre varchar (20) not null, raza varchar (30) not null, 
+edad int not null, genero varchar (6) not null);
+
+insert into perro values("Choco", "Bullterrier", 12, "macho");
+select * from perro;
